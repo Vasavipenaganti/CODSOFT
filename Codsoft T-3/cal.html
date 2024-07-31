@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="cal.css">
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" class="displaybox" id="displaybox"</td>
+                <td><button onclick="clearl()">C</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display(7)">7</button></td>
+                <td><button onclick="display(8)">8</button></td>
+                <td><button onclick="display(9)">9</button></td>
+                <td><button onclick="display('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display(4)">4</button></td>
+                <td><button onclick="display(5)">5</button></td>
+                <td><button onclick="display(6)">6</button></td>
+                <td><button onclick="display('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display(1)">1</button></td>
+                <td><button onclick="display(2)">2</button></td>
+                <td><button onclick="display(3)">3</button></td>
+                <td><button onclick="display('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('.')">.</button></td>
+                <td><button onclick="display(0)">0</button></td>
+                <td><button onclick="display('*')">*</button></td>
+                <td><button onclick="calcu()">=</button></td>
+            </tr>
+        </table>
+        <script src="cal.js"></script>
+    </body>
+</html>
